@@ -126,3 +126,40 @@ header {
 }
 
 /*Front Page End*/
+
+/*About Start*/
+.about {
+  margin-left: 28%;
+  margin-right: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.about h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+.about hr {
+  width: 80px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.main-about {
+  display: flex;
+}
+.left-about {
+  width: 50%;
+}
+.right-about {
+  width: 50%;
+}
+.left-about img {
+  width: 400px;
+  height: auto;
+}
+.main-about p {
+  text-align: justify;
+  font-weight: 50;
+}
+/*About End*/
