@@ -163,3 +163,107 @@ span {
   font-weight: 50;
 }
 /*About End*/
+
+/*Service Start*/
+.service {
+  margin-left: 26%;
+  margin-right: 3%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.service h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+.service hr {
+  width: 80px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.main-service {
+  display: flex;
+}
+.sec {
+  width: 33%;
+  height: 300px;
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 10px 20px 20px rgb(73, 68, 68);
+  border-left: 4px solid;
+  border-radius: 7px;
+  border-image: linear-gradient(#041230, rgb(9, 28, 199));
+  border-image-slice: 1;
+  background-image: linear-gradient(#dfe6e9, #ecf0f1);
+  cursor: pointer;
+}
+
+.sec h3 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.sec p {
+  text-align: justify;
+  line-height: 1.6;
+}
+/*Service End*/
+
+/*Contact Start*/
+
+.contact {
+  margin-left: 32%;
+  margin-right: 3%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 60%;
+  justify-content: center;
+}
+.contact h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+.contact hr {
+  width: 80px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 100px;
+}
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #041230;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #17326d;
+  transition: 0.5s;
+}
+
+footer p {
+  margin-left: 23%;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-color: #041230;
+}
